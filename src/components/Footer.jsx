@@ -1,6 +1,7 @@
 import React from 'react'
 import CommonContainer from './CommonContainer'
 import { FacebookIcon, InstIcom, TwitterIcon } from '../assets/svg'
+import { images } from '../assets/images'
 
 const Footer = () => {
   return (
@@ -25,6 +26,9 @@ const Footer = () => {
              <label className='block'>Message</label>
              <input className='h-12 border-white border mt-1 w-full bg-transparent' />
              </div>
+             <div className='flex justify-end w-full mt-4'>
+                <img src={images.SendButton} alt='send-button' />
+             </div>
              <div className='flex justify-center items-center flex-col w-full mt-28'>
                  <p>LET’S GET IN TOUCH</p>
                 <div className='flex justify-center gap-1'>
@@ -32,6 +36,7 @@ const Footer = () => {
                     <InstIcom/>
                     <TwitterIcon/>
                 </div>
+
              </div>
         </CommonContainer>
     </div>
