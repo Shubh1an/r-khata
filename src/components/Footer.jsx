@@ -4,7 +4,7 @@ import { FacebookIcon, InstIcom, TwitterIcon } from '../assets/svg'
 
 const Footer = () => {
   return (
-    <div>
+    <div  id="contact-us">
         <CommonContainer className={"bg-blue-dark text-white py-14"}>
             <p className='text-3xl font-medium'>Let’s Talk.</p>
             <div className='smol-flexbox-grid gap-4 mt-11'>

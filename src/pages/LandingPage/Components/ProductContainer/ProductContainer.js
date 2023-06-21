@@ -4,9 +4,9 @@ import { images } from '../../../../assets/images'
 
 const ProductContainer = () => {
   return (
-    <div className='relative' style={{background:" rgba(0, 168, 255, 0.05)"}}>
+    <div className='relative' style={{background:" rgba(0, 168, 255, 0.05)"}} id='service'>
         <CommonContainer>
-            <div className='flex flex-col w-fit md:flex-row items-center justify-between md:px-14 px-[10%] gap-5 rounded-[50px] bg-white mb-32 absolute -top-[9.5rem] left-[11%] right-[11%]'>
+            <div className='flex flex-col w-fit md:flex-row items-center justify-between md:px-14 px-[10%] gap-5 rounded-[50px] bg-white mb-32 absolute -top-[9.5rem] left-[11%] right-[11%] md:h-[300px] xl:w-[77%]'>
                 <div><img src={images.ProductImage} alt='product-gif' /></div>
                 <div className='md:text-lg max-w-[761px] '>We pride ourselves on offering a user-friendly and secure platform that ensures a seamless experience for both vendors and buyers. 
 </div>

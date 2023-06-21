@@ -4,13 +4,16 @@ import { BurgerIcon, CrossIcon, RkLogo } from '../assets/svg'
 const Header = () => {
     const [open,setOpen]= useState(false)
     const [navlinks,setNavLinks] =useState([
-        {to:"/",isActive:false,title:"About Us"},
-        {to:"/",isActive:false,title:"Service"},
-        {to:"/",isActive:false,title:"Contact Us"},
+        {to:"/",isActive:false,title:"About Us",id:"about-us"},
+        {to:"/",isActive:false,title:"Service",id:"service"},
+        {to:"/",isActive:false,title:"Contact Us",id:"contact-us"},
     ])
     const handleActiveClass=(nav)=>{
+       let element= document.getElementById(nav?.id)
+         
         const newNavlinks= navlinks.map(navt=>{if(navt.title===nav.title){return {...navt,isActive:true}} else return {...navt,isActive:false}})
         setNavLinks(newNavlinks)
+        element.scrollIntoView({behavior:"smooth"})
     }
   return (
     <div className='w-full py-8 lg:px-[12%] md:px-[8%] bg-white relative'>

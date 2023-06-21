@@ -3,7 +3,7 @@ import CommonContainer from '../../../../components/CommonContainer'
 
 const AboutContainer = () => {
   return (
-    <div className='mb-48'>
+    <div className='mb-48'  id='about-us'>
         <CommonContainer>
             <p className='text-blue-dark text-xl font-medium px-4 md:px-0'>ABOUT US</p>
             <div className='flex md:flex-row flex-col justify-between items-center mt-9 md:gap-8'>
