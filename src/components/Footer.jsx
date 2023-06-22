@@ -6,9 +6,9 @@ import { images } from '../assets/images'
 const Footer = () => {
   return (
     <div  id="contact-us">
-        <CommonContainer className={"bg-blue-dark text-white py-14"}>
+        <CommonContainer className={"bg-blue-dark text-white py-14 px-5 md:px-2"}>
             <p className='text-3xl font-medium'>Let’s Talk.</p>
-            <div className='smol-flexbox-grid gap-4 mt-11'>
+            <div className='smol-flexbox-grid gap-4 mt-11 '>
              <div className=''>
              <label className='block'>Your Name</label>
              <input className='h-12 border-white border mt-1 w-full bg-transparent' />

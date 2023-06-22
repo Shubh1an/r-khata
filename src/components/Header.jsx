@@ -23,7 +23,7 @@ const Header = () => {
              {open?<BurgerIcon/>:<BurgerIcon/>}
           </div>
           <div className={`absolute w-full top-full ${!open&&"hidden"} md:block md:relative md:max-w-max z-10 bg-blue-dark md:bg-white`}>
-            <ul className='flex flex-col  md:flex-row text-center justify-center gap-5 md:gap-12 list-none'>
+            <ul className='flex flex-col  md:flex-row text-center justify-center gap-5 md:gap-12 list-none py-3 md:py-0'>
                {navlinks.map(nav=><li className={`md:pb-2 ${nav.isActive&&"border-b border-black"} text-white md:text-black my-2 md:my-2 pb-0`} onClick={()=>handleActiveClass(nav)}>{nav.title}</li>) }
                
             </ul>

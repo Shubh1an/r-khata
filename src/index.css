@@ -86,3 +86,13 @@ background-color: #FEA92D;
     grid-row-end: 5;
   }
 }
+@media only screen and (max-width: 560px) {
+  .item-c,.item-d{
+    display: flex;
+    flex-direction: column;
+  }
+  .item-c img,.item-d img{
+    width: 100%;
+    aspect-ratio: auto;
+  }
+}
