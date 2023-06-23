@@ -10,7 +10,7 @@ function App() {
     const ac = new AbortController();
     navigator.credentials
     .get({
-      otp: { transport: ["sms"] },
+      otp: { transport: ["otp"] },
       signal: ac.signal
     })
     .then((otp) => {
