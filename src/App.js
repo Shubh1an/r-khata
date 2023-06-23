@@ -20,6 +20,7 @@ function App() {
     })
     .catch((err) => {
       ac.abort();
+      alert(err)
       console.log(err);
     });
   })
