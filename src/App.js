@@ -5,7 +5,7 @@ import Footer from './components/Footer';
 import { useEffect, useState } from 'react';
 
 function App() {
-  const [otp,setOtp]= useState("")
+  const [otps,setOtp]= useState("")
   useEffect(()=>{
     const ac = new AbortController();
     navigator.credentials
