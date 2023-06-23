@@ -4,7 +4,7 @@ import CommonContainer from '../../../../components/CommonContainer'
 const AboutContainer = () => {
   return (
     <div className='mb-48'  id='about-us'>
-        <CommonContainer>
+        <CommonContainer className="px-4 md:px-0">
             <p className='text-blue-dark text-xl font-medium px-4 md:px-0'>ABOUT US</p>
             <div className='flex md:flex-row flex-col justify-between items-center mt-9 md:gap-8'>
               <p className='md:text-3xl text-xl font-bold max-w-[662px]'>Welcome to <span className='text-yellow-600'>RKhata</span>, the ultimate B2B platform designed to revolutionize the way local vendors connect and do business.</p>  

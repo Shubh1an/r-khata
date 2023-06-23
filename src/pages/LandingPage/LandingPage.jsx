@@ -10,7 +10,7 @@ const LandingPage = () => {
   return (
     <div className=''>
     
-   <CommonContainer className={" bg-blue-dark grocery-container"}>
+   <CommonContainer className={" bg-blue-dark grocery-container px-4 md:px-0"}>
       <GroceryContainer/>
    </CommonContainer>
    
