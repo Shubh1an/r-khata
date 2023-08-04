@@ -14,6 +14,7 @@ function App() {
       <Routes>
     <Route path= "/" element={<MainPage/>} />
     <Route path='privacy-policy'element={<PrivacyPolicy/>} />
+    <Route path='terms&condition'element={<PrivacyPolicy/>} />
     </Routes>
     </div>
   );
